@@ -106,9 +106,6 @@ DeviceNetworkEvents
 | order by Timestamp desc
 | where RemotePort in ("9001","9030","9050","9150","80","443")
 
-```
-<img width="971" height="507" alt="image" src="https://github.com/user-attachments/assets/2d91df57-49ea-4b8e-8346-9119ae76119a" />
-
 ---
 
 ## Chronological Event Timeline 
