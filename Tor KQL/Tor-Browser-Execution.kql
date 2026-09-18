@@ -1,0 +1,4 @@
+DeviceProcessEvents
+| where DeviceName == "ty-threat-hunt"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-15.0.19.exe"
+| project Timestamp, FolderPath, ProcessCommandLine, ActionType, DeviceName, AccountName
