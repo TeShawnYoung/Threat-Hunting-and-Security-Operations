@@ -87,8 +87,6 @@ DeviceProcessEvents
 | project TimeGenerated, DeviceName, AccountName, ActionType,FileName, ProcessCommandLine
 
 
-<img width="948" height="825" alt="image" src="https://github.com/user-attachments/assets/db05d63a-28eb-4133-98b8-c5a86d9b48a1" />
-
 ---
 
 ### 4. Searched the `DeviceNetworkEvents` Table for TOR Network Connections
