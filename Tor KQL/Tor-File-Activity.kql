@@ -1,7 +1,0 @@
-DeviceFileEvents
-| where DeviceName == "ty-threat-hunt"
-| where FileName contains "tor"
-| order by Timestamp desc
-| where InitiatingProcessAccountName == "ty"
-| where TimeGenerated >= datetime(2026-08-01T04:44:33.5452372Z)
-| project Timestamp, DeviceName, ActionType, FileName, SHA256, InitiatingProcessAccountName, FolderPath
