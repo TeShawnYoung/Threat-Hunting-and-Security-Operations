@@ -1,0 +1,5 @@
+DeviceProcessEvents
+| where DeviceName == "ty-threat-hunt"
+| where FileName has_any ("tor.exe", "firefox.exe")
+| order by Timestamp desc
+| project TimeGenerated, DeviceName, AccountName, ActionType, FileName, ProcessCommandLine
